@@ -10,6 +10,10 @@ export NODE_REPL_HISTORY_SIZE='32768';
 # Use sloppy mode by default, matching web browsers.
 export NODE_REPL_MODE='sloppy';
 
+# Export nvm directory
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
 
@@ -32,3 +36,12 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
+
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+# Groovy
+export GROOVY_HOME='/usr/local/opt/groovy/libexec'
+
+# Set Xcode developer directory
+export DEVELOPER_DIR=$(xcode-select --print-path)

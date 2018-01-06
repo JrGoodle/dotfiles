@@ -17,7 +17,7 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+# brew install gnu-sed --with-default-names
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
@@ -38,7 +38,7 @@ brew install gnupg
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
-brew install grep
+# brew install grep
 brew install openssh
 brew install screen
 brew install homebrew/php/php56 --with-gmp
